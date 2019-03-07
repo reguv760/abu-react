@@ -1,4 +1,7 @@
 import React from "react";
+import Seo from "react-seo-expert";
+
+//style
 import "./../styles/style.scss";
 
 //components:::
@@ -14,8 +17,32 @@ import Footer from "./Footer";
 
 class App extends React.Component {
 	render() {
+		const SEO = {
+			keywords: "test",
+			author: "test author",
+			copyright: "",
+			email: "",
+			language: "",
+			robots: "",
+			google_site_verification: "",
+			viewport: "",
+			title: "",
+			description: "",
+			locale: "",
+			type: "",
+			image: "",
+			video: "",
+			audio: "",
+			url: "",
+			twitter_card: "",
+			twitter_site: "",
+			twitter_creator: ""
+		};
+
 		return (
 			<div>
+				<Seo config={SEO} />
+
 				<Navigation />
 
 				<Jumbotron />
