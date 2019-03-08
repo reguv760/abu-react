@@ -3,8 +3,10 @@ import Seo from "react-seo-expert";
 
 //style
 import "./../styles/style.scss";
+//import fadeBG from "./../assets/img/fadeBG.jpg";
 
 //components:::
+import ILW from "./ILW";
 import Navigation from "./Navigation";
 import Jumbotron from "./Jumbotron";
 
@@ -45,14 +47,16 @@ class App extends React.Component {
 
 				<Navigation />
 
+				<ILW />
+
 				<Jumbotron />
 
 				<div className="container-fluid">
+					<Services />
+
 					<Articles />
 
 					<Gallery />
-
-					<Services />
 
 					<Contact />
 				</div>
