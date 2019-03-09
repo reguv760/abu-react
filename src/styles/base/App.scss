@@ -26,6 +26,20 @@ a:hover {
   /* color:$orange;*/
 }
 
+.nav-logo {
+  font-family: "Noto Serif", serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-left: 0.5rem;
+}
+
+.ilw {
+  margin: 1.2rem 2rem;
+}
+
 .container {
 }
 
@@ -36,7 +50,7 @@ a:hover {
 }
 
 .jumbotron {
-  min-height: 100vh;
+  min-height: 75vh;
 }
 
 /*SERVICES*/
