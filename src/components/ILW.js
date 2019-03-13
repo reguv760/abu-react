@@ -8,7 +8,7 @@ class ILW extends React.Component {
 					ILW Immigration Daily Updates
 					<br />
 					<iframe
-						src="https://www.ilw.com/parse.asp"
+						src="https://cors-anywhere.herokuapp.com/https://www.ilw.com/parse.asp"
 						height="75"
 						width="100%"
 						scrolling="no"

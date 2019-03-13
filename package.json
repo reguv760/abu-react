@@ -5,7 +5,6 @@
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-holder": "^1.0.0",
     "react-scripts": "2.1.6",
     "react-seo-expert": "^1.0.5",
     "rss-parser": "^3.7.0"
