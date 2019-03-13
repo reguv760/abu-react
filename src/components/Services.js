@@ -3,7 +3,7 @@ import React from "react";
 const Services = () => {
 	return (
 		<div className="container">
-			<h1>Services</h1>
+			<h2>Services</h2>
 			<p>
 				Abraham Lim specializes and handles cases which involves US
 				Immigration law. This includes:

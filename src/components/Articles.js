@@ -3,7 +3,7 @@ import React from "react";
 const Articles = () => {
 	return (
 		<div className="container" id="articles">
-			<h1>Articles</h1>
+			<h2>Articles</h2>
 			<p>All articles are downloadble as DOC files.</p>
 
 			<div className="row">

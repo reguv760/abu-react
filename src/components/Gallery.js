@@ -1,18 +1,17 @@
 import React from "react";
-import Holder from "react-holder";
 
 const Gallery = props => {
 	return (
 		<div className="container">
-			<h1>Gallery</h1>
+			<h2>Gallery</h2>
 
 			<div className="row">
 				<div className="col-md-6">
 					<div className="card mb-4 box-shadow">
 						<img
+							alt="Holder Thumbnail"
 							className="card-img-top"
 							data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
-							alt="Card image cap"
 						/>
 						<div className="card-body">
 							<p className="card-text">
@@ -27,9 +26,9 @@ const Gallery = props => {
 				<div className="col-md-6">
 					<div className="card mb-4 box-shadow">
 						<img
+							alt="Holder Thumbnail"
 							className="card-img-top"
 							data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
-							alt="Card image cap"
 						/>
 						<div className="card-body">
 							<p className="card-text">
@@ -44,9 +43,9 @@ const Gallery = props => {
 				<div className="col-md-6">
 					<div className="card mb-4 box-shadow">
 						<img
+							alt="Holder Thumbnail"
 							className="card-img-top"
 							data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
-							alt="Card image cap"
 						/>
 						<div className="card-body">
 							<p className="card-text">
@@ -61,9 +60,9 @@ const Gallery = props => {
 				<div className="col-md-6">
 					<div className="card mb-4 box-shadow">
 						<img
+							alt="Holder Thumbnail"
 							className="card-img-top"
 							data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
-							alt="Card image cap"
 						/>
 						<div className="card-body">
 							<p className="card-text">
@@ -78,9 +77,9 @@ const Gallery = props => {
 				<div className="col-md-6">
 					<div className="card mb-4 box-shadow">
 						<img
+							alt="Holder Thumbnail"
 							className="card-img-top"
 							data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
-							alt="Card image cap"
 						/>
 						<div className="card-body">
 							<p className="card-text">
@@ -95,9 +94,9 @@ const Gallery = props => {
 				<div className="col-md-6">
 					<div className="card mb-4 box-shadow">
 						<img
+							alt="Holder Thumbnail"
 							className="card-img-top"
 							data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
-							alt="Card image cap"
 						/>
 						<div className="card-body">
 							<p className="card-text">
