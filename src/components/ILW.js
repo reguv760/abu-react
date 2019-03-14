@@ -1,4 +1,7 @@
 import React from "react";
+import axios from "axios";
+
+//http://discuss.ilw.com/external?type=rss2&nodeid=379892,379891,379893
 
 class ILW extends React.Component {
 	render() {
@@ -8,7 +11,7 @@ class ILW extends React.Component {
 					ILW Immigration Daily Updates
 					<br />
 					<iframe
-						src="https://cors-anywhere.herokuapp.com/https://www.ilw.com/parse.asp"
+						src="https://www.ilw.com/parse.asp"
 						height="75"
 						width="100%"
 						scrolling="no"

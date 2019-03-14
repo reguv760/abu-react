@@ -6,7 +6,7 @@ import "./../styles/style.scss";
 //import fadeBG from "./../assets/img/fadeBG.jpg";
 
 //components:::
-//import ILW from "./ILW";
+import ILW from "./ILW";
 import Navigation from "./Navigation";
 import Jumbotron from "./Jumbotron";
 
@@ -47,7 +47,7 @@ class App extends React.Component {
 
 				<Navigation />
 
-				{/* <ILW /> */}
+				<ILW />
 
 				<Jumbotron />
 
