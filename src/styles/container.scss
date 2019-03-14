@@ -1,0 +1,28 @@
+.container {
+  background-image: url("./../assets/img/column2.png");
+  background-repeat: repeat-y;
+  background-position: right top;
+  background-size: scale-down;
+
+  min-height: 20vh;
+  background-color: $darkGrey;
+  margin: 1rem auto;
+
+  & h1 {
+    font-size: 3.2rem;
+  }
+
+  & h2 {
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 2rem 0;
+    color: $bootStrapDarkGrey;
+    letter-spacing: 0.025em;
+  }
+
+  & p {
+    font-size: 1.4rem;
+    margin: 1rem 0;
+  }
+}

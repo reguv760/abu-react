@@ -2,6 +2,13 @@
 // Small devices (landscape phones, 576px and up)
 
 @media (min-width: 400px) {
+	.jumbotron {
+		& .pageContent {
+			& p {
+				font-size: 1.4rem;
+			}
+		}
+	}
 	.container .list-group {
 		& .list-group-item {
 			& a {
@@ -10,6 +17,7 @@
 		}
 	}
 }
+
 @media (min-width: 576px) {
 }
 
@@ -18,7 +26,7 @@
 	.jumbotron {
 		& .pageContent {
 			& p {
-				font-size: 1.6rem;
+				font-size: 1.4rem;
 			}
 		}
 	}
@@ -36,19 +44,17 @@
 @media (min-width: 992px) {
 	.navbar-nav {
 		& .nav-item {
-			margin: 0 1rem;
+			margin: 0 2rem;
 		}
 	}
 
 	.jumbotron {
 		& .pageContent {
-			& p {
-				font-size: 1.8rem;
-			}
-		}
+			width: 65%;
 
-		& img {
-			max-height: 72rem;
+			& p {
+				font-size: 1.6rem;
+			}
 		}
 	}
 }

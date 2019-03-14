@@ -1,11 +1,13 @@
 import React from "react";
+import ILW from "./ILW";
 import Abu from "./../assets/img/abuCrop2.png";
 
 const Jumbotron = () => {
 	return (
 		<div className="jumbotron jumbotron-fluid">
 			<div className="row">
-				<div className="col-sm-6 col-md-6 col-lg-6">
+				<div className="col-sm-12 col-md-6 col-lg-8">
+					<ILW />
 					<div className="pageContent">
 						<p>
 							Atty. Abraham L. Lim practices in the fields of US
@@ -38,7 +40,7 @@ const Jumbotron = () => {
 						</p>
 					</div>
 				</div>
-				<div className="col-sm-6 col-md-6 col-lg-6">
+				<div className="col-sm-12 col-md-6 col-lg-4">
 					<img
 						src={Abu}
 						className="hero-image"

@@ -1,0 +1,20 @@
+.jumbotron {
+  min-height: 25vh;
+  padding: 0;
+  margin: 4rem 0 2rem 0;
+  background-image: linear-gradient(to right, $veryWhite 75%, $darkPurple);
+
+  & .pageContent {
+    color: $offBlack;
+    margin: 2rem 4rem;
+
+    & p {
+      line-height: 1.4em;
+    }
+  }
+
+  & img {
+    max-height: 80rem;
+    object-fit: cover;
+  }
+}

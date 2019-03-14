@@ -21,7 +21,7 @@ const Articles = () => {
 				<p>All articles are downloadble as DOC files.</p>
 
 				<div className="row">
-					<div className="col-md-6">
+					<div className="col-md-12">
 						<ul className="list-group articles">
 							<li className="list-group-item">
 								<a href={VAWA}>
@@ -44,10 +44,7 @@ const Articles = () => {
 							<li className="list-group-item">
 								<a href={WHATISTHEE2}>WHAT IS THE E-2 VISA?</a>
 							</li>
-						</ul>
-					</div>
-					<div className="col-md-6">
-						<ul className="list-group articles">
+
 							<li className="list-group-item">
 								<a href={WHATISTHEH3}>WHAT IS THE H-3 VISA?</a>
 							</li>

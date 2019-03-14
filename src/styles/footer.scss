@@ -1,0 +1,15 @@
+/*footer */
+
+.page-footer {
+  margin: 1rem 0;
+  line-height: 1.4em;
+
+  & a {
+    font-weight: bold;
+    color: $offBlack;
+  }
+
+  & a:hover {
+    color: $darkPurple;
+  }
+}

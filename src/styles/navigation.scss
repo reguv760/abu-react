@@ -1,0 +1,21 @@
+/*Navigation */
+
+.nav-logo {
+  font-family: "Noto Serif", serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: $veryWhite;
+}
+
+.navbar-nav {
+  margin-left: 0.5rem;
+
+  & .nav-item.nav-link {
+    font-size: 1.4rem;
+    color: $veryWhite;
+  }
+
+  & .nav-item.nav-link:hover {
+    color: $darkGrey;
+  }
+}
