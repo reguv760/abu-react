@@ -7,6 +7,7 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.6",
+    "react-scrollable-anchor": "^0.6.1",
     "react-seo-expert": "^1.0.5"
   },
   "scripts": {

@@ -1,5 +1,6 @@
 import React from "react";
 import Seo from "react-seo-expert";
+import { configureAnchors } from "react-scrollable-anchor";
 
 //style
 import "./../styles/style.scss";
@@ -18,6 +19,10 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 
 class App extends React.Component {
+	componentDidMount() {
+		configureAnchors({ offset: -50, scrollDuration: 750 });
+	}
+
 	render() {
 		const SEO = {
 			keywords: "test",

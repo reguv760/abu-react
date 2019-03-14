@@ -30,6 +30,7 @@ a:hover {
   font-family: "Noto Serif", serif;
   font-size: 1.8rem;
   font-weight: bold;
+  color: #fff;
 }
 
 .navbar-nav {
@@ -37,15 +38,10 @@ a:hover {
 }
 
 .ilw {
-  margin: 1.2rem 2rem;
+  margin: 2.5rem 2rem;
 }
 
 .container {
-  & h1,
-  & h2 {
-    padding-bottom: 2rem;
-  }
-
   & h1 {
     font-size: 3.2rem;
   }
@@ -53,6 +49,11 @@ a:hover {
   & h2 {
     font-size: 2.4rem;
     padding-top: 2rem;
+  }
+
+  & p {
+    font-size: 1.4rem;
+    margin: 1rem 0;
   }
 }
 
@@ -87,5 +88,13 @@ a:hover {
   & .list-group-item {
     background-color: transparent;
     border: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+
+    & a {
+      font-weight: bold;
+      font-size: 1.4rem;
+      color: #333;
+    }
   }
 }

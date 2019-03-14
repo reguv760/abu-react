@@ -1,7 +1,4 @@
 import React from "react";
-import axios from "axios";
-
-//http://discuss.ilw.com/external?type=rss2&nodeid=379892,379891,379893
 
 class ILW extends React.Component {
 	render() {
@@ -18,7 +15,7 @@ class ILW extends React.Component {
 						frameborder="0"
 						marginheight="2"
 						marginwidth="2"
-						allowtransparency="false"
+						allowtransparency="true"
 						title="ILW"
 					/>
 				</div>
@@ -28,11 +25,3 @@ class ILW extends React.Component {
 }
 
 export default ILW;
-
-// loadILW = () fetch('http://www.ilw.com/parse.asp')
-//  .then((response) => response.text())
-//  .then((responseData) => rssParser.parse(responseData))
-//  .then((rss) => {
-//    console.log(rss.title);
-//    console.log(rss.items.length);
-//  });

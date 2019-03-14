@@ -39,7 +39,11 @@ const Jumbotron = () => {
 					</div>
 				</div>
 				<div className="col-12 col-lg-6">
-					<img src={Abu} className="hero-image" />
+					<img
+						src={Abu}
+						className="hero-image"
+						alt="Attorney Abraham Lim"
+					/>
 				</div>
 			</div>
 		</div>
