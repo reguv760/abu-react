@@ -12,6 +12,14 @@ after commit + push to GitHub then
 
 Login to netlify, then **DEPLOY** to publish website
 
+## Features
+
+### 1. eslint 5.12.0: works in conjunction with Sublime3 Text Editor
+
+### 2. scrollable anchor: navigation link animates to section when clicked.
+
+    `npm install react-scrollable-anchor`
+
 ## Available Scripts
 
 In the project directory, you can run:
