@@ -1,14 +1,13 @@
 import React from "react";
+import Abu from "./../assets/img/abuMain.jpg";
 
 const Jumbotron = () => {
 	return (
 		<div className="jumbotron jumbotron-fluid">
-			<div className="container">
-				<h1 className="display-4">Fluid jumbotron</h1>
-
-				<div className="row">
-					<div className="col-12 col-lg-6">
-						<p className="pageContent">
+			<div className="row">
+				<div className="col-12 col-lg-6">
+					<div className="pageContent">
+						<p>
 							Atty. Abraham L. Lim practices in the fields of US
 							immigration law, crisis management, and corporate
 							law.
@@ -38,7 +37,9 @@ const Jumbotron = () => {
 							Southern California Chinese Lawyer's Association.
 						</p>
 					</div>
-					<div className="col-12 col-lg-6">Placeholder for IMG</div>
+				</div>
+				<div className="col-12 col-lg-6">
+					<img src={Abu} className="hero-image" />
 				</div>
 			</div>
 		</div>
