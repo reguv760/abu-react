@@ -1,11 +1,64 @@
+//triggered when screen GOES above <res>
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {  }
+
+@media (min-width: 400px) {
+	.jumbotron {
+		& .pageContent {
+			& p {
+				font-size: 1.4rem;
+			}
+		}
+	}
+	.container .list-group {
+		& .list-group-item {
+			& a {
+				font-size: 1.2rem;
+			}
+		}
+	}
+}
+
+@media (min-width: 576px) {
+}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {  }
+@media (min-width: 768px) {
+	.jumbotron {
+		& .pageContent {
+			& p {
+				font-size: 1.4rem;
+			}
+		}
+	}
+
+	.container .list-group {
+		& .list-group-item {
+			& a {
+				font-size: 1.4rem;
+			}
+		}
+	}
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {  }
+@media (min-width: 992px) {
+	.navbar-nav {
+		& .nav-item {
+			margin: 0 2rem;
+		}
+	}
+
+	.jumbotron {
+		& .pageContent {
+			width: 65%;
+
+			& p {
+				font-size: 1.6rem;
+			}
+		}
+	}
+}
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {
+}

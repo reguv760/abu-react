@@ -1,2 +1,12 @@
+@import "./base/variables";
 @import "./base/App";
+
+@import "./navigation";
+@import "./container";
+@import "./jumbotron";
+@import "./services";
+@import "./gallery";
+@import "./contact";
+@import "./footer";
+
 @import "./base/mediaQuery";

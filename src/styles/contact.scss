@@ -1,0 +1,30 @@
+/*Contact */
+.container {
+  & .img-passport {
+    object-fit: cover;
+    max-height: 30rem;
+  }
+
+  & .contact-info {
+    margin: 1rem;
+    & p {
+      font-size: 1.4rem;
+      line-height: 1.6em;
+
+      & a {
+        font-weight: bold;
+        color: $offBlack;
+        text-decoration: underline;
+      }
+
+      & a:hover {
+        color: $darkPurple;
+      }
+    }
+
+    & .bold-contact {
+      font-weight: bold;
+      font-size: 1.6rem;
+    }
+  }
+}

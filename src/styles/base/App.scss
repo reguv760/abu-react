@@ -6,9 +6,8 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #eee;
   font-size: 1.2rem;
-  width: 100%; /* use 100% for mobileMenu clearance */
+  width: 100%;
   overflow-x: hidden;
 }
 
@@ -20,28 +19,5 @@ img {
 
 a {
   text-decoration: none;
-  /*color:$black;*/
 }
 
-a:hover {
-  /* color:$orange;*/
-}
-
-.container {
-}
-
-.container-fluid .container {
-  min-height: 30vh;
-  background-color: #ccc;
-  margin: 1rem auto;
-}
-
-.jumbotron {
-  min-height: 100vh;
-}
-
-/*SERVICES*/
-.container .list-group {
-  display: flex;
-  justify-content: center;
-}
