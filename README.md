@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and Bootstrap4(https://getbootstrap.com/)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Bootstrap4](https://getbootstrap.com/)
 
 ## Build ALIM website
 
