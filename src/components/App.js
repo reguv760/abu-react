@@ -1,5 +1,5 @@
 import React from "react";
-import Seo from "react-seo-expert";
+import ReactGA from "react-ga";
 import { configureAnchors } from "react-scrollable-anchor";
 
 //style
@@ -20,36 +20,13 @@ import Footer from "./Footer";
 
 class App extends React.Component {
 	componentDidMount() {
-		configureAnchors({ offset: -50, scrollDuration: 750 });
+		ReactGA.initialize("UA-6371690-11");
+		configureAnchors({ offset: -50, scrollDuration: 500 });
 	}
 
 	render() {
-		const SEO = {
-			keywords: "test",
-			author: "test author",
-			copyright: "",
-			email: "",
-			language: "",
-			robots: "",
-			google_site_verification: "",
-			viewport: "",
-			title: "",
-			description: "",
-			locale: "",
-			type: "",
-			image: "",
-			video: "",
-			audio: "",
-			url: "",
-			twitter_card: "",
-			twitter_site: "",
-			twitter_creator: ""
-		};
-
 		return (
 			<div>
-				<Seo config={SEO} />
-
 				<Navigation />
 
 				<ILW />

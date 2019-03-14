@@ -1,5 +1,15 @@
 //triggered when screen GOES above <res>
 // Small devices (landscape phones, 576px and up)
+
+@media (min-width: 400px) {
+	.container .list-group {
+		& .list-group-item {
+			& a {
+				font-size: 1.2rem;
+			}
+		}
+	}
+}
 @media (min-width: 576px) {
 }
 
@@ -11,10 +21,13 @@
 				font-size: 1.6rem;
 			}
 		}
+	}
 
-		& .hero-image {
-			width: 100%;
-			height: 100%;
+	.container .list-group {
+		& .list-group-item {
+			& a {
+				font-size: 1.4rem;
+			}
 		}
 	}
 }
@@ -32,6 +45,10 @@
 			& p {
 				font-size: 1.8rem;
 			}
+		}
+
+		& img {
+			max-height: 72rem;
 		}
 	}
 }

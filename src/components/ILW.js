@@ -12,9 +12,9 @@ class ILW extends React.Component {
 						height="75"
 						width="100%"
 						scrolling="no"
-						frameborder="0"
-						marginheight="2"
-						marginwidth="2"
+						frameBorder="0"
+						marginHeight="2"
+						marginWidth="2"
 						allowtransparency="true"
 						title="ILW"
 					/>

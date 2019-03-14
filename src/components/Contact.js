@@ -17,16 +17,21 @@ const Contact = () => {
 						/>
 					</div>
 					<div className="col-sm-6">
-						<span className="bold">ABRAHAM L. LIM, ESQ.</span>
-						<br />
-						Law Offices of Abraham L. Lim
-						<br />
-						A Professional Corporation
-						<br />
-						E-MAIL:{" "}
-						<a href="mailto:ALim@abrahamlimlaw.com">
-							ALim@abrahamlimlaw.com
-						</a>
+						<div className="contact-info">
+							<span className="bold-contact">
+								ABRAHAM L. LIM, ESQ.
+							</span>
+							<p>
+								Law Offices of Abraham L. Lim
+								<br />
+								A Professional Corporation
+								<br />
+								E-MAIL:{" "}
+								<a href="mailto:ALim@abrahamlimlaw.com">
+									ALim@abrahamlimlaw.com
+								</a>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
