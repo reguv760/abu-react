@@ -7,6 +7,7 @@ import "./../styles/style.scss";
 //import fadeBG from "./../assets/img/fadeBG.jpg";
 
 //components:::
+import HelmetHead from "./Helmet";
 import Navigation from "./Navigation";
 import Jumbotron from "./Jumbotron";
 
@@ -26,6 +27,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<div>
+				<HelmetHead />
 				<Navigation />
 
 				<Jumbotron />
