@@ -21,11 +21,8 @@ const Navigation = () => {
 
 			<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div className="navbar-nav">
-					<a className="nav-item nav-link" href="/">
-						Home <span className="sr-only">(current)</span>
-					</a>
 					<a className="nav-item nav-link" href="#Services">
-						Services
+						Services <span className="sr-only">(current)</span>
 					</a>
 					<a className="nav-item nav-link" href="#Articles">
 						Articles
