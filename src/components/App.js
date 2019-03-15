@@ -1,5 +1,4 @@
 import React from "react";
-import ReactGA from "react-ga";
 import { configureAnchors } from "react-scrollable-anchor";
 
 //style
@@ -20,7 +19,6 @@ import Footer from "./Footer";
 
 class App extends React.Component {
 	componentDidMount() {
-		ReactGA.initialize("UA-6371690-11");
 		configureAnchors({ offset: -50, scrollDuration: 500 });
 	}
 
