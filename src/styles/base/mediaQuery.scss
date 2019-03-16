@@ -9,16 +9,22 @@
 			}
 		}
 	}
-	.container .list-group {
-		& .list-group-item {
-			& a {
-				font-size: 1.2rem;
-			}
-		}
-	}
 }
 
 @media (min-width: 576px) {
+	.navbar-nav {
+		& .nav-item {
+			margin: 0.5rem 0;
+		}
+	}
+
+	.container .list-group {
+		& .list-group-item {
+			& a {
+				margin: 1rem 0;
+			}
+		}
+	}
 }
 
 // Medium devices (tablets, 768px and up)

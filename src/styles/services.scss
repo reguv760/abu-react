@@ -1,5 +1,6 @@
 /*SERVICES and ARTICLES*/
-.container .list-group {
+.container .list-group.services,
+.container .list-group.articles {
   display: flex;
   justify-content: center;
   margin: 2rem 1rem;
@@ -9,9 +10,16 @@
     border: none;
     text-transform: uppercase;
     font-size: 1.4rem;
-    padding: 0.5rem 0;
+    margin: 0.2rem 0;
+  }
+}
+
+.container .list-group.articles {
+  & .list-group-item {
+    margin: 0.2rem 0;
 
     & a {
+      font-size: 1.4rem;
       font-weight: bold;
       color: $offBlack;
       text-decoration: underline;
