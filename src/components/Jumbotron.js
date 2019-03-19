@@ -9,11 +9,11 @@ const Jumbotron = () => {
 				<div className="col-sm-12 col-md-6 col-lg-8">
 					<ILW />
 					<div className="pageContent">
-						<p>
+						<h1>
 							Atty. Abraham L. Lim practices in the fields of US
 							immigration law, crisis management, and corporate
 							law.
-						</p>
+						</h1>
 
 						<p>
 							He is admitted to the United States Supreme Court,

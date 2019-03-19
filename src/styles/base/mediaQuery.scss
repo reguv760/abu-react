@@ -4,8 +4,8 @@
 @media (min-width: 400px) {
 	.jumbotron {
 		& .pageContent {
-			& p {
-				font-size: 1.4rem;
+			& h1 {
+				font-size: 1.6rem;
 			}
 		}
 	}
@@ -31,8 +31,8 @@
 @media (min-width: 768px) {
 	.jumbotron {
 		& .pageContent {
-			& p {
-				font-size: 1.4rem;
+			& h1 {
+				font-size: 1.8rem;
 			}
 		}
 	}
@@ -59,7 +59,7 @@
 			width: 65%;
 
 			& p {
-				font-size: 1.6rem;
+				font-size: 1.4rem;
 			}
 		}
 	}
