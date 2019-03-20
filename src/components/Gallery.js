@@ -16,7 +16,7 @@ import abuMary3 from "./../assets/img/people/abuMary3.jpg";
 
 const Gallery = () => {
 	return (
-		<ScrollableAnchor id={"Gallery"}>
+		<ScrollableAnchor id={"gallery"}>
 			<div className="container">
 				<h2>Gallery</h2>
 

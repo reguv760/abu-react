@@ -5,18 +5,18 @@ import Passport from "./../assets/img/passport.png";
 
 const Contact = () => {
 	return (
-		<ScrollableAnchor id={"Contact"}>
-			<div className="container">
+		<ScrollableAnchor id={"contact"}>
+			<div className="container contact">
 				<h2>Contact</h2>
 				<div className="row">
-					<div className="col-sm-6">
+					<div className="col-sm-12 col-md-6">
 						<img
 							src={Passport}
 							alt="passport"
 							className="img-passport"
 						/>
 					</div>
-					<div className="col-sm-6">
+					<div className="col-sm-12 col-md-6">
 						<div className="contact-info">
 							<span className="bold-contact">
 								ABRAHAM L. LIM, ESQ.
