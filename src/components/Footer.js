@@ -12,8 +12,7 @@ const Footer = () => {
 				>
 					ReactJS
 				</a>{" "}
-				by:
-				<br />
+				by:{" "}
 				<a
 					href="https://reguv760.github.io/portfolio/"
 					target="_blank"
@@ -21,6 +20,17 @@ const Footer = () => {
 				>
 					Reginald Galang
 				</a>
+				<br />
+				<span className="hosting">
+					Hosted on{" "}
+					<a
+						href="http://netlify.com"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Netlify
+					</a>
+				</span>
 			</div>
 		</footer>
 	);
