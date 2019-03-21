@@ -15,7 +15,7 @@ import EB2 from "./../assets/articles/EB2article.doc";
 
 const Articles = () => {
 	return (
-		<ScrollableAnchor id={"Articles"}>
+		<ScrollableAnchor id={"articles"}>
 			<div className="container">
 				<h2>Articles</h2>
 				<p>All articles are downloadble as DOC files.</p>
