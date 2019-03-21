@@ -3,7 +3,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 
 const Services = () => {
 	return (
-		<ScrollableAnchor id={"services"}>
+		<ScrollableAnchor id={"Services"}>
 			<div className="container services">
 				<h2>Services</h2>
 				<div className="row">

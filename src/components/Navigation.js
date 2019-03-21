@@ -21,17 +21,17 @@ const Navigation = () => {
 
 			<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div className="navbar-nav">
-					<a className="nav-item nav-link" href="#services">
+					<a className="nav-item nav-link" href="#Services">
 						Services
 						<span className="sr-only" />
 					</a>
-					<a className="nav-item nav-link" href="#articles">
+					<a className="nav-item nav-link" href="#Articles">
 						Articles
 					</a>
-					<a className="nav-item nav-link" href="#gallery">
+					<a className="nav-item nav-link" href="#Gallery">
 						Gallery
 					</a>
-					<a className="nav-item nav-link" href="#contact">
+					<a className="nav-item nav-link" href="#Contact">
 						Contact
 					</a>
 				</div>

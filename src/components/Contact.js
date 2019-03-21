@@ -5,7 +5,7 @@ import Passport from "./../assets/img/passport.png";
 
 const Contact = () => {
 	return (
-		<ScrollableAnchor id={"contact"}>
+		<ScrollableAnchor id={"Contact"}>
 			<div className="container contact">
 				<h2>Contact</h2>
 				<div className="row">
