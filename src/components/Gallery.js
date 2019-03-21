@@ -4,11 +4,13 @@ import ScrollableAnchor from "react-scrollable-anchor";
 //images:::
 
 //thumbnails
-import abuannjejo from "./../assets/img/people/abuannjejo.jpg";
-import abuannmel from "./../assets/img/people/abuannmel.jpg";
-import abuannmaryjose from "./../assets/img/people/abuannmaryjose.jpg";
-import abuannraj from "./../assets/img/people/abuannraj.jpg";
-import abu1 from "./../assets/img/people/abu1.jpg";
+import abuGarcetti from "./../assets/img/people/abuGarcetti.jpg";
+import abuCruzGarcetti from "./../assets/img/people/abuCruzGarcetti.jpg";
+import abuAnnCruzGarcetti from "./../assets/img/people/abuAnnCruzGarcetti.jpg";
+import abuAnnCruzGarcetti2 from "./../assets/img/people/abuAnnCruzGarcetti2.jpg";
+import abuAnnHontiveros from "./../assets/img/people/abuAnnHontiveros.jpg";
+import abuAnnRyu from "./../assets/img/people/abuAnnRyu.jpg";
+import abuAnnSotto from "./../assets/img/people/abuAnnSotto.jpg";
 import abu2 from "./../assets/img/people/abu2.jpg";
 import abuMary1 from "./../assets/img/people/abuMary1.jpg";
 import abuMary2 from "./../assets/img/people/abuMary2.jpg";
@@ -24,16 +26,14 @@ const Gallery = () => {
 					<div className="col-md-6 col-lg-4">
 						<div className="card mb-4 box-shadow">
 							<img
-								alt="Atty. Abraham Lim with Mrs. Annie Cuevas-Lim visiting Philippines Vice President Jejomar Binay at his official residence on February 1, 2013."
+								alt="Los Angeles Mayor Eric Garcetti(L) and Abraham Lim(R)."
 								className="card-img-top"
-								src={abuannjejo}
+								src={abuGarcetti}
 							/>
 							<div className="card-body">
 								<p className="card-text">
-									Atty. Abraham Lim with Mrs. Annie Cuevas-Lim
-									visiting Philippines Vice President Jejomar
-									Binay at his official residence on February
-									1, 2013.
+									Los Angeles Mayor Eric Garcetti (L) and
+									Abraham Lim.
 								</p>
 							</div>
 						</div>
@@ -42,15 +42,14 @@ const Gallery = () => {
 					<div className="col-md-6 col-lg-4">
 						<div className="card mb-4 box-shadow">
 							<img
-								alt="Atty. Abraham Lim with wife Phil. Tourism Director for LA Annie Cuevas-Lim with former Philippine Beauty Queen Melanie Marquez."
+								alt="Philippine Consul General Adelio Cruz(L), LA Mayor Eric Garcetti(M) and Abraham Lim(R)."
 								className="card-img-top"
-								src={abuannmel}
+								src={abuCruzGarcetti}
 							/>
 							<div className="card-body">
 								<p className="card-text">
-									Atty. Abraham Lim with wife Phil. Tourism
-									Director for LA Annie Cuevas-Lim with former
-									Philippine Beauty Queen Melanie Marquez.
+									Philippine Consul General Adelio Cruz(L), LA
+									Mayor Eric Garcetti(M) and Abraham Lim(R).
 								</p>
 							</div>
 						</div>
@@ -59,17 +58,15 @@ const Gallery = () => {
 					<div className="col-md-6 col-lg-4">
 						<div className="card mb-4 box-shadow">
 							<img
-								alt="Atty. Abraham Lim with wife LA Tourism Director Annie Cuevas-Lim with former Phil. Consul General in Los Angeles Mary Joe B. Aragon and current Phil. Ambassador to the U.S. Jose Cuisia Jr."
+								alt="Philippine Consul General Adelio Ctuz(LL), Annie Cuevas-Lim(L), LA Mayor Eric Garcetti(M) and Abraham Lim(R)."
 								className="card-img-top"
-								src={abuannmaryjose}
+								src={abuAnnCruzGarcetti}
 							/>
 							<div className="card-body">
 								<p className="card-text">
-									Atty. Abraham Lim with wife LA Tourism
-									Director Annie Cuevas-Lim with former Phil.
-									Consul General in Los Angeles Mary Joe B.
-									Aragon and current Phil. Ambassador to the
-									U.S. Jose Cuisia Jr
+									Philippine Consul General Adelio Ctuz(LL),
+									Annie Cuevas-Lim(L), LA Mayor Eric
+									Garcetti(M) and Abraham Lim(R).
 								</p>
 							</div>
 						</div>
@@ -78,15 +75,17 @@ const Gallery = () => {
 					<div className="col-md-6 col-lg-4">
 						<div className="card mb-4 box-shadow">
 							<img
-								alt="Atty. Abraham Lim with wife Phil. Tourism Director in LA Annie Cuevas-Lim with former Phil. Beauty Queen Venus Raj."
+								alt="LA Mayor Eric Garcetti, Annie Cuevas-Lim,
+									Abraham Lim and Philippine Consul General
+									Adelio Ctuz."
 								className="card-img-top"
-								src={abuannraj}
+								src={abuAnnCruzGarcetti2}
 							/>
 							<div className="card-body">
 								<p className="card-text">
-									Atty. Abraham Lim with wife Phil. Tourism
-									Director in LA Annie Cuevas-Lim with former
-									Phil. Beauty Queen Venus Raj.
+									LA Mayor Eric Garcetti, Annie Cuevas-Lim,
+									Abraham Lim and Philippine Consul General
+									Adelio Ctuz.
 								</p>
 							</div>
 						</div>
@@ -95,15 +94,50 @@ const Gallery = () => {
 					<div className="col-md-6 col-lg-4">
 						<div className="card mb-4 box-shadow">
 							<img
-								alt="Atty. Abraham Lim, Annie Cuevas Lim, California State Assemblyman Rob Bonta, and West Covina Councilman James Toma."
+								alt="Abraham Lim(L), Senator Risa Hontiveros(M) and
+									Annie Cuevas-Lim(R)."
 								className="card-img-top"
-								src={abu1}
+								src={abuAnnHontiveros}
 							/>
 							<div className="card-body">
 								<p className="card-text">
-									Atty. Abraham Lim, Annie Cuevas Lim,
-									California State Assemblyman Rob Bonta, and
-									West Covina Councilman James Toma.
+									Abraham Lim(L), Senator Risa Hontiveros(M)
+									and Annie Cuevas-Lim(R).
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div className="col-md-6 col-lg-4">
+						<div className="card mb-4 box-shadow">
+							<img
+								alt="Annie Cuevas-Lim(L), Los Angeles Councilmember David Ryu(M)
+									and Abraham Lim(L)."
+								className="card-img-top"
+								src={abuAnnRyu}
+							/>
+							<div className="card-body">
+								<p className="card-text">
+									Annie Cuevas-Lim(L), Los Angeles
+									Councilmember David Ryu(M) and Abraham
+									Lim(L).
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div className="col-md-6 col-lg-4">
+						<div className="card mb-4 box-shadow">
+							<img
+								alt="Annie Cuevas-Lim(L), Los Angeles Councilmember David Ryu(M)
+									and Abraham Lim(L)."
+								className="card-img-top"
+								src={abuAnnSotto}
+							/>
+							<div className="card-body">
+								<p className="card-text">
+									Senate President Tito Sotto(L), Annie
+									Cuevas-Lim(M) and Abraham Lim(L).
 								</p>
 							</div>
 						</div>
