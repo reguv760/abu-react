@@ -23,6 +23,7 @@ const Navigation = () => {
 				<div className="navbar-nav">
 					<a className="nav-item nav-link" href="#services">
 						Services
+						<span className="sr-only" />
 					</a>
 					<a className="nav-item nav-link" href="#articles">
 						Articles
