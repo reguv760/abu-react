@@ -9,6 +9,15 @@
 			}
 		}
 	}
+
+	.ilw {
+		& .panel {
+			& iframe {
+				width: 100%;
+				height: 9.5rem;
+			}
+		}
+	}
 }
 
 @media (min-width: 576px) {
@@ -50,6 +59,15 @@
 	.navbar-nav {
 		& .nav-item {
 			margin: 0 2rem;
+		}
+	}
+
+	.ilw {
+		& .panel {
+			& iframe {
+				width: 80%;
+				height: 11rem;
+			}
 		}
 	}
 

@@ -1,0 +1,10 @@
+.ilw {
+	margin: 1rem;
+
+	& .panel {
+		& iframe {
+			padding: 1rem;
+			width: 75%;
+		}
+	}
+}
