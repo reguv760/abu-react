@@ -10,7 +10,7 @@ Site is located at: [http://abrahamlimlaw.com](http://abrahamlimlaw.com)
 
 **Deploy to Github to publish live via Netlify**
 
-### 'git push origin master'
+### `git push origin master`
 
 - after adding and committing branch
 
