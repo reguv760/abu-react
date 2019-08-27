@@ -2,6 +2,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This site uses "eslint", "eslint-config-standard", "eslint-plugin-import", "eslint-plugin-node", "eslint-plugin-promise", "eslint-plugin-standard" libraries for VS Code
 
+Site is located at: [http://abrahamlimlaw.com](http://abrahamlimlaw.com)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3819858a-85bc-4a68-94d4-404d7b81ac01/deploy-status)](https://app.netlify.com/sites/abu-react/deploys)
+
 ## Build ALIM website
 
 **Deploy to Github to publish live via Netlify**
