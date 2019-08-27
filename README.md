@@ -1,8 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This site uses "eslint", "eslint-config-standard", "eslint-plugin-import", "eslint-plugin-node", "eslint-plugin-promise", "eslint-plugin-standard" libraries for VS Code
+
 ## Build ALIM website
 
-**Note: Due to eslint 5.12.0 conflicting with Netlify build, deploy to netlify must be pushed from Terminal**
+**Deploy to Github to publish live via Netlify**
+
+### 'git push origin master'
+
+- after adding and committing branch
+
+OR
+
+**Deploy to netlify directly from Terminal**
 
 ### `npm run build`
 
@@ -10,7 +20,7 @@ after commit + push to GitHub then
 
 ### `netlify deploy`
 
-Login to netlify, then **DEPLOY** to publish website
+Login to netlify after build is pushed, review then **DEPLOY** to publish website
 
 ## Features
 
