@@ -1,5 +1,5 @@
 import React from "react";
-import ILW from "./ILW";
+//import ILW from "./ILW";
 import Abu from "./../assets/img/abuCrop2.png";
 
 const Jumbotron = () => {
@@ -7,7 +7,7 @@ const Jumbotron = () => {
 		<div className="jumbotron jumbotron-fluid">
 			<div className="row">
 				<div className="col-sm-12 col-md-6 col-lg-8">
-					<ILW />
+					{/* <ILW /> */}
 					<div className="pageContent">
 						<h1>
 							Atty. Abraham L. Lim practices in the fields of US

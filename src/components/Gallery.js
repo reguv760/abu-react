@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from 'react-lazyload';
 import ScrollableAnchor from "react-scrollable-anchor";
 
 //images:::
@@ -16,202 +17,95 @@ import abuMary1 from "./../assets/img/people/abuMary1.jpg";
 import abuMary2 from "./../assets/img/people/abuMary2.jpg";
 import abuMary3 from "./../assets/img/people/abuMary3.jpg";
 
-const Gallery = () => {
-	return (
-		<ScrollableAnchor id={"gallery"}>
-			<div className="container">
-				<h2>Gallery</h2>
+class Gallery extends React.Component{
 
-				<div className="row">
-					<div className="col-md-6 col-lg-4">
-						<div className="card mb-4 box-shadow">
+	state = 
+	{
+		GalleryImages: [
+			{
+				image: abuGarcetti,
+				text: "Los Angeles Mayor Eric Garcetti(L) and Abraham Lim(R)."
+			},
+			{
+				image: abuCruzGarcetti,
+				text: "Philippine Consul General Adelio Cruz(L), LA Mayor Eric Garcetti(M) and Abraham Lim(R)."
+			},
+			{
+				image: abuAnnCruzGarcetti,
+				text: "Philippine Consul General Adelio Ctuz(LL), Annie Cuevas-Lim(L), LA Mayor Eric Garcetti(M) and Abraham Lim(R)."
+			},
+			{
+				image: abuAnnCruzGarcetti2,
+				text: "LA Mayor Eric Garcetti, Annie Cuevas-Lim, Abraham Lim and Philippine Consul General Adelio Ctuz."
+			},
+			{
+				image: abuAnnHontiveros,
+				text: "Abraham Lim(L), Senator Risa Hontiveros(M) and Annie Cuevas-Lim(R)."
+			},
+			{
+				image: abuAnnRyu,
+				text: "Annie Cuevas-Lim(L), Los Angeles Councilmember David Ryu(M) and Abraham Lim(L)."
+			},
+			{
+				image: abuAnnSotto,
+				text: "Annie Cuevas-Lim(L), Los Angeles Councilmember David Ryu(M) and Abraham Lim(L)."
+			},
+			{
+				image: abuAnnSotto,
+				text: "Senate President Tito Sotto(L), Annie Cuevas-Lim(M) and Abraham Lim(L)."
+			},
+			{
+				image: abu2,
+				text: "Atty. Abraham Lim, Annie Cuevas Lim and California State Assemblyman Rob Bonta."
+			},
+			{
+				image: abuMary1,
+				text: "Annie Cuevas Lim, Atty. Abraham Lim, City of Cerritos Mayor Mark Pulido and Gloria Pulido."
+			},
+			{
+				image: abuMary2,
+				text: "California State Treasurer and candidate for Governor of California John Chiang and Atty. Abraham Lim."
+			},
+			{
+				image: abuMary3,
+				text: "Atty. Abraham Lim and Philippine Consul General to Los Angeles Adel Cruz."
+			}
+		]
+	}
+	render()
+	{
+		const ImageList = this.state.GalleryImages.map((item, i) =>
+		{
+			return (
+				<div key={"abu-gallery " + i} className="col-md-6 col-lg-4">
+					<div className="card mb-4 box-shadow">
+						<LazyLoad height={300} once >
 							<img
-								alt="Los Angeles Mayor Eric Garcetti(L) and Abraham Lim(R)."
+								alt={item.text}
 								className="card-img-top"
-								src={abuGarcetti}
+								src={item.image}
 							/>
-							<div className="card-body">
-								<p className="card-text">
-									Los Angeles Mayor Eric Garcetti (L) and
-									Abraham Lim.
-								</p>
-							</div>
+						</LazyLoad>
+						<div className="card-body">
+							<p className="card-text">
+								{item.text}
+							</p>
 						</div>
 					</div>
+				</div> 
+			)
+		});
 
-					<div className="col-md-6 col-lg-4">
-						<div className="card mb-4 box-shadow">
-							<img
-								alt="Philippine Consul General Adelio Cruz(L), LA Mayor Eric Garcetti(M) and Abraham Lim(R)."
-								className="card-img-top"
-								src={abuCruzGarcetti}
-							/>
-							<div className="card-body">
-								<p className="card-text">
-									Philippine Consul General Adelio Cruz(L), LA
-									Mayor Eric Garcetti(M) and Abraham Lim(R).
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div className="col-md-6 col-lg-4">
-						<div className="card mb-4 box-shadow">
-							<img
-								alt="Philippine Consul General Adelio Ctuz(LL), Annie Cuevas-Lim(L), LA Mayor Eric Garcetti(M) and Abraham Lim(R)."
-								className="card-img-top"
-								src={abuAnnCruzGarcetti}
-							/>
-							<div className="card-body">
-								<p className="card-text">
-									Philippine Consul General Adelio Ctuz(LL),
-									Annie Cuevas-Lim(L), LA Mayor Eric
-									Garcetti(M) and Abraham Lim(R).
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div className="col-md-6 col-lg-4">
-						<div className="card mb-4 box-shadow">
-							<img
-								alt="LA Mayor Eric Garcetti, Annie Cuevas-Lim,
-									Abraham Lim and Philippine Consul General
-									Adelio Ctuz."
-								className="card-img-top"
-								src={abuAnnCruzGarcetti2}
-							/>
-							<div className="card-body">
-								<p className="card-text">
-									LA Mayor Eric Garcetti, Annie Cuevas-Lim,
-									Abraham Lim and Philippine Consul General
-									Adelio Ctuz.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div className="col-md-6 col-lg-4">
-						<div className="card mb-4 box-shadow">
-							<img
-								alt="Abraham Lim(L), Senator Risa Hontiveros(M) and
-									Annie Cuevas-Lim(R)."
-								className="card-img-top"
-								src={abuAnnHontiveros}
-							/>
-							<div className="card-body">
-								<p className="card-text">
-									Abraham Lim(L), Senator Risa Hontiveros(M)
-									and Annie Cuevas-Lim(R).
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div className="col-md-6 col-lg-4">
-						<div className="card mb-4 box-shadow">
-							<img
-								alt="Annie Cuevas-Lim(L), Los Angeles Councilmember David Ryu(M)
-									and Abraham Lim(L)."
-								className="card-img-top"
-								src={abuAnnRyu}
-							/>
-							<div className="card-body">
-								<p className="card-text">
-									Annie Cuevas-Lim(L), Los Angeles
-									Councilmember David Ryu(M) and Abraham
-									Lim(L).
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div className="col-md-6 col-lg-4">
-						<div className="card mb-4 box-shadow">
-							<img
-								alt="Annie Cuevas-Lim(L), Los Angeles Councilmember David Ryu(M)
-									and Abraham Lim(L)."
-								className="card-img-top"
-								src={abuAnnSotto}
-							/>
-							<div className="card-body">
-								<p className="card-text">
-									Senate President Tito Sotto(L), Annie
-									Cuevas-Lim(M) and Abraham Lim(L).
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div className="col-md-6 col-lg-4">
-						<div className="card mb-4 box-shadow">
-							<img
-								alt="Atty. Abraham Lim, Annie Cuevas Lim and California State Assemblyman Rob Bonta."
-								className="card-img-top"
-								src={abu2}
-							/>
-							<div className="card-body">
-								<p className="card-text">
-									Atty. Abraham Lim, Annie Cuevas Lim and
-									California State Assemblyman Rob Bonta.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div className="col-md-6 col-lg-4">
-						<div className="card mb-4 box-shadow">
-							<img
-								alt="Annie Cuevas Lim, Atty. Abraham Lim, City of Cerritos Mayor Mark Pulido and Gloria Pulido."
-								className="card-img-top"
-								src={abuMary1}
-							/>
-							<div className="card-body">
-								<p className="card-text">
-									Annie Cuevas Lim, Atty. Abraham Lim, City of
-									Cerritos Mayor Mark Pulido and Gloria
-									Pulido.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div className="col-md-6 col-lg-4">
-						<div className="card mb-4 box-shadow">
-							<img
-								alt="California State Treasurer and candidate for Governor of California John Chiang and Atty. Abraham Lim."
-								className="card-img-top"
-								src={abuMary2}
-							/>
-							<div className="card-body">
-								<p className="card-text">
-									California State Treasurer and candidate for
-									Governor of California John Chiang and Atty.
-									Abraham Lim.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div className="col-md-6 col-lg-4">
-						<div className="card mb-4 box-shadow">
-							<img
-								alt="Atty. Abraham Lim and Philippine Consul General to Los Angeles Adel Cruz."
-								className="card-img-top"
-								src={abuMary3}
-							/>
-							<div className="card-body">
-								<p className="card-text">
-									Atty. Abraham Lim and Philippine Consul
-									General to Los Angeles Adel Cruz
-								</p>
-							</div>
-						</div>
+		return (
+			<ScrollableAnchor id={"gallery"}>
+				<div className="container">
+					<h2>Gallery</h2>	
+					<div className="row">
+						{ ImageList }						
 					</div>
 				</div>
-			</div>
-		</ScrollableAnchor>
-	);
-};
-
+			</ScrollableAnchor>
+		);
+	}
+}
 export default Gallery;
