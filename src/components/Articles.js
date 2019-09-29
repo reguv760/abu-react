@@ -13,64 +13,85 @@ import PVisa from "./../assets/articles/WHATISTHEPVISA.doc";
 import H1B from "./../assets/articles/H-1barticle.doc";
 import EB2 from "./../assets/articles/EB2article.doc";
 
-const Articles = () => {
-	return (
-		<ScrollableAnchor id={"articles"}>
-			<div className="container">
-				<h2>Articles</h2>
-				<p>All articles are downloadble as DOC files.</p>
+class Articles extends React.Component
+{
+	state = {
+		ArticleArray: [
+			{
+				title: "Are you an Abused Parent of a US Citizen?",
+				PDF: VAWA,
+			},
+			{
+				title: "Visit USA",
+				PDF: VISITUSA
+			},
+			{
+				title: "ALTERNATIVES TO THE H-1B",
+				PDF: ALTERNATIVES
+			},
+			{
+				title: "IMMIGRATION HORROR STORIES",
+				PDF: HORRORSTORIES
+			},
+			{
+				title: "WHAT IS THE E-2 VISA?",
+				PDF: WHATISTHEE2
+			},
+			{
+				title: "WHAT IS THE H-3 VISA?",
+				PDF: WHATISTHEH3
+			},
+			{
+				title: "What is the O Visa?",
+				PDF: OVisa
+			},
+			{
+				title: "WHAT IS THE P VISA?",
+				PDF: PVisa
+			},
+			{
+				title: "WHAT IS THE P VISA?",
+				PDF: PVisa
+			},  
+			{
+				title: "REASON TO FILE H-1B PETITION EARLY?",
+				PDF: H1B
+			},  
+			
+			{
+				title: "Eligibility for a Green Card in Less Than a Year",
+				PDF: EB2
+			},  
+		]
+	}
+	render()
+	{
+		const ArticleList = this.state.ArticleArray.map((article, i) => {
+			return (
+				<li key={"alim-article" + i} className="list-group-item">
+					<a href={article.PDF}>{article.title}</a>
+				</li> 
+			)
+		});
 
-				<div className="row">
-					<div className="col-md-12">
-						<ul className="list-group articles">
-							<li className="list-group-item">
-								<a href={VAWA}>
-									Are you an Abused Parent of a US Citizen?
-								</a>
-							</li>
-							<li className="list-group-item">
-								<a href={VISITUSA}>Visit USA</a>
-							</li>
-							<li className="list-group-item">
-								<a href={ALTERNATIVES}>
-									ALTERNATIVES TO THE H-1B }
-								</a>
-							</li>
-							<li className="list-group-item">
-								<a href={HORRORSTORIES}>
-									IMMIGRATION HORROR STORIES
-								</a>
-							</li>
-							<li className="list-group-item">
-								<a href={WHATISTHEE2}>WHAT IS THE E-2 VISA?</a>
-							</li>
+		return(
+			<ScrollableAnchor id={"articles"}>
+				<div className="container">
+					<h2>Articles</h2>
+					<p>All articles are downloadble as DOC files.</p>
 
-							<li className="list-group-item">
-								<a href={WHATISTHEH3}>WHAT IS THE H-3 VISA?</a>
-							</li>
-							<li className="list-group-item">
-								<a href={OVisa}>What is the O Visa?</a>
-							</li>
-							<li className="list-group-item">
-								<a href={PVisa}>WHAT IS THE P VISA?</a>
-							</li>
-							<li className="list-group-item">
-								<a href={H1B}>
-									REASON TO FILE H-1B PETITION EARLY?
-								</a>
-							</li>
-							<li className="list-group-item">
-								<a href={EB2}>
-									Eligibility for a Green Card in Less Than a
-									Year
-								</a>
-							</li>
-						</ul>
+					<div className="row">
+						<div className="col-md-12">
+							<ul className="list-group articles">
+								{ ArticleList }							
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
-		</ScrollableAnchor>
-	);
-};
+			</ScrollableAnchor>
+		)
+		
+	}
+}
 
 export default Articles;
