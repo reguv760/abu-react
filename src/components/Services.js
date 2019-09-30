@@ -1,66 +1,100 @@
 import React from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
 
-const Services = () => {
-	return (
-		<ScrollableAnchor id={"services"}>
-			<div className="container services">
-				<h2>Services</h2>
-				<div className="row">
-					<div className="col-md-6">
-						<p>
-							Abraham Lim specializes and handles cases which
-							involves US Immigration law. This includes:
-						</p>
+class Services extends React.Component
+{
+	state =
+	{
+		ServiceArray: [ 
+			{
+				text: "EB-5 INVESTMENT VISA"
+			},
+			{
+				text: "EB-2 PERM"
+			},
+			{
+				text: "LABOR CERTIFICATIONS"
+			},
+			{
+				text: "E1/E2 VISA"
+			},
+			{
+				text: "O-1 EXTRAORDINARY ABILITY ALIENS"
+			},
+			{
+				text: "P ARTIST VISA"
+			},
+			{
+				text: "Q VISITOR VISA"
+			},
+			{
+				text: "L1 VISA"
+			},
+			{
+				text: "H-1B VISA"
+			},
+			{
+				text: "TN VISA"
+			},
+			{
+				text: "MARRIAGE & FAMILY CASES"
+			},
+			{
+				text: "BATTERED SPOUSE CASES"
+			},
+			{
+				text: "DEPORTATION DEFENSE"
+			},
+			{
+				text: "CRIMINAL DEPORTATION"
+			},
+			{
+				text: "IMMIGRATION WORKSITE COMPLIANCE"
+			}
+		]
+	} 
 
-						<ul className="list-group services">
-							<li className="list-group-item">
-								EB -5 INVESTMENT VISA
-							</li>
-							<li className="list-group-item">EB-2 PERM</li>
-							<li className="list-group-item">
-								LABOR CERTIFICATIONS
-							</li>
-							<li className="list-group-item">E1/E2 VISA</li>
-							<li className="list-group-item">
-								O-1 EXTRAORDINARY ABILITY ALIENS
-							</li>
-							<li className="list-group-item">P ARTIST VISA</li>
-							<li className="list-group-item">Q VISITOR VISA</li>
-							<li className="list-group-item">L1 VISA</li>
-							<li className="list-group-item">H-1B VISA</li>
-							<li className="list-group-item">TN VISA</li>
-							<li className="list-group-item">
-								MARRIAGE & FAMILY CASES
-							</li>
-							<li className="list-group-item">
-								BATTERED SPOUSE CASES
-							</li>
-							<li className="list-group-item">
-								DEPORTATION DEFENSE
-							</li>
-							<li className="list-group-item">
-								CRIMINAL DEPORTATION
-							</li>
-							<li className="list-group-item">
-								IMMIGRATION WORKSITE COMPLIANCE
-							</li>
-						</ul>
-					</div>
+	render()
+	{
+		const ServiceList = this.state.ServiceArray.map((serviceText, i) => 
+		{
+			return (
+				<li key={"abu-services" + i} className="list-group-item">
+					{serviceText.text} 
+				</li>
+			)
+		})
 
-					<div className="col-md-6">
-						<p>Abraham Lim also practices:</p>
-						<ul className="list-group services">
-							<li className="list-group-item">
-								crisis management
-							</li>
-							<li className="list-group-item">corporate</li>
-						</ul>
+		return (
+			<ScrollableAnchor id={"services"}>
+				<div className="container services">
+					<h2>Services</h2>
+					<div className="row">
+						<div className="col-md-6">
+							<p>
+								Abraham Lim specializes and handles cases which
+								involves US Immigration law. This includes:
+							</p>
+	
+							<ul className="list-group services">
+								{ ServiceList }
+							</ul>
+						</div>
+	
+						<div className="col-md-6">
+							<p>Abraham Lim also practices:</p>
+							<ul className="list-group services">
+								<li className="list-group-item">
+									crisis management
+								</li>
+								<li className="list-group-item">corporate</li>
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
-		</ScrollableAnchor>
-	);
+			</ScrollableAnchor>
+		);
+	}	
 };
 
 export default Services;
