@@ -7,8 +7,8 @@ const Navigation = () => {
 				className="navbar-toggler"
 				type="button"
 				data-toggle="collapse"
-				data-target="#navbarNavAltMarkup"
-				aria-controls="navbarNavAltMarkup"
+				data-target="#navbarMobileNav"
+				aria-controls="navbarMobileNav"
 				aria-expanded="false"
 				aria-label="Toggle navigation"
 			>
@@ -19,22 +19,29 @@ const Navigation = () => {
 				<span className="nav-logo">Law Offices of Abraham L. Lim</span>
 			</a>
 
-			<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-				<div className="navbar-nav">
-					<a className="nav-item nav-link" href="#services">
-						Services
-						<span className="sr-only" />
-					</a>
-					<a className="nav-item nav-link" href="#articles">
-						Articles
-					</a>
-					<a className="nav-item nav-link" href="#gallery">
-						Gallery
-					</a>
-					<a className="nav-item nav-link" href="#contact">
-						Contact
-					</a>
-				</div>
+			<div className="collapse navbar-collapse" id="navbarMobileNav">
+				<ul className="navbar-nav">
+					<li className="nav-item">
+						<a className="nav-link" href="#services">
+							Services
+						</a>
+					</li>
+					<li className="nav-item">
+						<a className="nav-link" href="#articles">
+							Articles
+						</a>
+					</li>
+					<li className="nav-item">
+						<a className="nav-link" href="#gallery">
+							Gallery
+						</a>
+					</li>
+					<li className="nav-item">
+						<a className="nav-link" href="#contact">
+							Contact
+						</a>
+					</li>
+				</ul>
 			</div>
 		</nav>
 	);

@@ -1,19 +1,19 @@
 /*footer */
 
 .page-footer {
-	margin: 1rem 0;
-	line-height: 1.4em;
+  margin: 1rem 0;
+  line-height: 2em;
 
-	& a {
-		font-weight: bold;
-		color: $offBlack;
-	}
+  & a {
+    font-weight: bold;
+    color: $offBlack;
+  }
 
-	& a:hover {
-		color: $darkPurple;
-	}
+  & a:hover {
+    color: $darkPurple;
+  }
 
-	& .hosting {
-		font-size: 1.2rem;
-	}
+  & .hosting {
+    font-size: 1.2rem;
+  }
 }

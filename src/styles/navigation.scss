@@ -10,12 +10,16 @@
 .navbar-nav {
   margin-left: 0.5rem;
 
-  & .nav-item.nav-link {
-    font-size: 1.4rem;
-    color: $veryWhite;
-  }
+  & .nav-item {
+    margin: 0.5rem 0;
 
-  & .nav-item.nav-link:hover {
-    color: $darkGrey;
+    & .nav-link {
+      font-size: 1.6rem;
+      color: $veryWhite;
+    }
+
+    & .nav-link:hover {
+      color: $darkGrey;
+    }
   }
 }
