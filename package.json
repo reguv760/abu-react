@@ -5,11 +5,11 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "mixin-deep": "^2.0.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1",
     "react-lazyload": "^2.6.2",
-    "react-scripts": "3.1.1",
+    "react-scripts": "^3.2.0",
     "react-scrollable-anchor": "^0.6.1",
     "set-value": "^3.0.1"
   },
@@ -35,7 +35,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^6.2.2",
+    "eslint": "^6.5.1",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^9.1.0",

@@ -5,6 +5,11 @@
   font-size: 1.8rem;
   font-weight: bold;
   color: $veryWhite;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 .navbar-nav {

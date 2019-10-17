@@ -20,7 +20,7 @@ import Footer from "./Footer";
 
 class App extends React.Component {
 	componentDidMount() {
-		configureAnchors({ offset: -50, scrollDuration: 500 });
+		configureAnchors({ offset: -50, scrollDuration: 600 });
 	}
 
 	render() {

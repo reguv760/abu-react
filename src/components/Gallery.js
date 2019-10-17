@@ -48,10 +48,6 @@ class Gallery extends React.Component{
 			},
 			{
 				image: abuAnnSotto,
-				text: "Annie Cuevas-Lim(L), Los Angeles Councilmember David Ryu(M) and Abraham Lim(L)."
-			},
-			{
-				image: abuAnnSotto,
 				text: "Senate President Tito Sotto(L), Annie Cuevas-Lim(M) and Abraham Lim(L)."
 			},
 			{
