@@ -1,16 +1,37 @@
 //triggered when screen GOES above <res>
 // Small devices (landscape phones, 576px and up)
 
-@media (min-width: 400px) {
+@media (min-width: 0) {
   .jumbotron {
     & .pageContent {
       & h1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+      }
+
+      & p {
+        font-size: 1.4rem;
       }
     }
 
     & img {
-      width: 50%;
+      width: 90%;
+    }
+  }
+}
+
+@media (min-width: 400px) {
+  .container .list-group.services,
+  .container .list-group.articles {
+    & .list-group-item {
+      font-size: 1.4rem;
+    }
+  }
+
+  .container .list-group.articles {
+    & .list-group-item {
+      & a {
+        font-size: 1.4rem;
+      }
     }
   }
 
@@ -31,6 +52,12 @@
     }
   }
 
+  .jumbotron {
+    & img {
+      width: 75%;
+    }
+  }
+
   .container .list-group {
     & .list-group-item {
       & a {
@@ -43,12 +70,6 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .jumbotron {
-    & .pageContent {
-      & h1 {
-        font-size: 1.8rem;
-      }
-    }
-
     & img {
       width: 100%;
     }
@@ -64,6 +85,13 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+  .jumbotron {
+    & .pageContent {
+      & h1 {
+        font-size: 1.8rem;
+      }
+    }
+  }
   .navbar-nav {
     & .nav-item {
       margin: 0 2rem;
@@ -85,6 +113,21 @@
 
       & p {
         font-size: 1.4rem;
+      }
+    }
+  }
+
+  .container .list-group.services,
+  .container .list-group.articles {
+    & .list-group-item {
+      font-size: 1.6rem;
+    }
+  }
+
+  .container .list-group.articles {
+    & .list-group-item {
+      & a {
+        font-size: 1.6rem;
       }
     }
   }
